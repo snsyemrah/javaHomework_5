@@ -4,9 +4,10 @@ import java.util.List;
 
 import com.example.demo.core.utilities.results.DataResult;
 import com.example.demo.core.utilities.results.Result;
-import com.example.demo.entities.concretes.JobPosition;
+import com.example.demo.entities.concretes.Employer;
 
-public interface JobPositionService {
-	DataResult<List<JobPosition>> getAll();
-	Result signUp(JobPosition jobPosition);
+public interface EmployerService {
+	
+	DataResult<List<Employer>> getAll();
+	Result signUp(Employer employer);
 }
