@@ -37,7 +37,7 @@ public class JobPositionCheckManager implements JobPositionCheckService{
 
 	@Override
 	public DataResult<List<JobPosition>> findByPosition(String position) {
-		return new SuccessDataResult<List<JobPosition>>(this.jobPositionDao.findByJobPosition(position));
+		return new SuccessDataResult<List<JobPosition>>(this.jobPositionDao.findByPosition(position));
 	}
 
 }

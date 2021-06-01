@@ -1,4 +1,4 @@
-package com.example.demo.business.concretes;
+package com.example.demo.core.utilities;
 
 import java.util.List;
 
